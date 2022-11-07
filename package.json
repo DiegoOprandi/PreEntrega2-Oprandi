@@ -1,0 +1,21 @@
+{
+  "name": "clase3",
+  "version": "1.0.0",
+  "description": "tercerentregacoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/sas.scss style.css", 
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoOprandi/PreEntrega2-Oprandi.git"
+  },
+  "author": "Diego Oprandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoOprandi/PreEntrega2-Oprandi/issues"
+  },
+  "homepage": "https://github.com/DiegoOprandi/PreEntrega2-Oprandi#readme"
+}
